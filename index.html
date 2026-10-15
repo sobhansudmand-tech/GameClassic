@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GameClassic</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+     
+<body>
+
+
+<!-- Settings -->
+<div id="settingsScreen" class="settings-screen">
+
+    <div class="settings-box">
+
+        <h2>⚙️ Settings</h2>
+
+        <h3>🌐 Language</h3>
+
+    <div class="language-buttons">
+        <button id="englishLanguage">🇺🇸 English</button>
+        <button id="persianLanguage">🇮🇷 فارسی</button>
+    </div>
+
+        <h3>🌓 Theme</h3>
+
+        <div class="theme-buttons">
+            <button id="lightTheme">☀️ Light</button>
+            <button id="darkTheme">🌙 Dark</button>
+        </div>
+
+        <button id="backFromSettings">← Back</button>
+
+    </div>
+
+</div>
+<!-- About -->
+<div id="aboutScreen" class="about-screen">
+
+    <div class="about-box">
+
+        <h2>ℹ️ About GameClassic</h2>
+
+        <p>
+            Hello and welcome to GameClassic! 🎮
+        </p>
+
+        <p>
+            We’ve created GameClassic as a collection of classic and entertaining
+            games for you to enjoy. Our goal is to provide simple, fun, and engaging
+            games that you can play whenever you want to relax and have a good time.
+        </p>
+
+        <p>
+            Please keep in mind that this is the <strong>Demo version</strong> of
+            GameClassic, so it is not the complete version yet. In the full version,
+            we plan to add many more features, including <strong>more games, online
+            multiplayer, expanded settings, a ranking and records system, tournaments
+            with cash prizes,</strong> and many other exciting features.
+        </p>
+
+        <p>
+            GameClassic is still under development, and we have a long way to go to
+            make it bigger and better. We hope you enjoy the games available in this
+            demo and have a great experience playing GameClassic. ❤️
+        </p>
+
+        <p>
+           ❤️ <strong>Support GameClassic:</strong> Please support us by sharing
+           GameClassic with your friends and introducing them to our website.
+           Your support helps us continue developing GameClassic and creating
+           more games and features. 🚀
+        </p>
+
+        <p>
+            🖥️ <strong>Platform:</strong> GameClassic is currently available
+            for PC only. We may port or develop a mobile version in the future,
+            so mobile players may be able to enjoy GameClassic as well.
+        </p>
+
+        <p>
+            <strong>Thank you for choosing GameClassic. Have fun and enjoy the games!
+            🎮❤️</strong>
+        </p>
+
+        <p>
+        ⚠️ <strong>Please note:</strong> GameClassic is still under development,
+           so the Demo version may contain bugs or unexpected issues.
+           We appreciate your understanding and hope you enjoy the experience.
+        </p>
+
+        <button id="backFromAbout">← Back</button>
+
+    </div>
+
+</div>
+
+    <!-- HOME -->
+
+    <section id="homeScreen" class="screen active">
+<!-- Site Menu -->
+<div class="site-menu">
+    <button id="settingsButton">⚙️ Settings</button>
+    <button id="aboutButton">ℹ️ About</button>
+</div>
+
+        <header class="hero">
+
+            <h1>GameClassic(Demo)</h1>
+
+            <p>Classic games. Simple fun.</p>
+
+        </header>
+
+
+        <main class="home-content">
+
+            <h2>Choose a Game</h2>
+
+
+            <div class="game-grid">
+
+                <button class="game-card" data-game="snake">
+                    <span>🐍</span>
+                    <strong>Snake</strong>
+                    <small>Eat, grow and survive</small>
+                </button>
+
+
+                <button class="game-card" data-game="snake2">
+                    <span>⚡🐍</span>
+                    <strong>Snake 2</strong>
+                    <small>Eat and get faster</small>
+                </button>
+
+
+                <button class="game-card" data-game="pong">
+                    <span>🏓</span>
+                    <strong>Pong</strong>
+                    <small>Classic arcade tennis</small>
+                </button>
+
+
+                <button class="game-card" data-game="pong2">
+                    <span>🏓</span>
+                    <strong>Pong 2</strong>
+                    <small>Survive the obstacles.Watch out for the ghost blocks!</small>
+                </button>
+
+
+                <button class="game-card" data-game="xo">
+                    <span>❌⭕</span>
+                    <strong>XO</strong>
+                    <small>Beat your opponent</small>
+                </button>
+
+
+                <button class="game-card" data-game="breakout">
+                    <span>🧱</span>
+                    <strong>Breakout</strong>
+                    <small>Destroy all the bricks</small>
+                </button>
+
+
+                <button class="game-card" data-game="airhockey">
+                    <span>🏒</span>
+                    <strong>Air Hockey</strong>
+                    <small>Beat the computer</small>
+                </button>
+
+
+                <button class="game-card" data-game="memory">
+                    <span>🃏</span>
+                    <strong>Memory</strong>
+                    <small>Find all the pairs</small>
+                </button>
+
+
+                <button class="game-card" data-game="tetris">
+                    <span>🧩</span>
+                    <strong>Tetris</strong>
+                    <small>Clear lines and survive</small>
+                </button>
+
+
+                <button class="game-card" data-game="racing">
+                    <span>🏎️</span>
+                    <strong>Mini Racing</strong>
+                    <small>Race, dodge and survive</small>
+                </button>
+
+
+                <button class="game-card" data-game="dothunter">
+                    <span>🎯</span>
+                    <strong>Dot Hunter</strong>
+                    <small>Eat all dots before time runs out</small>
+                </button>
+
+
+                <button class="game-card" data-game="duel">
+                    <span>⚔️</span>
+                    <strong>Duel</strong>
+                    <small>Fight the black knight</small>
+                </button>
+
+
+                <button class="game-card" data-game="helicopter">
+                    <span>🚁</span>
+                    <strong>Helicopter</strong>
+                    <small>Fly, dodge and survive</small>
+                </button>
+
+
+                <button class="game-card" data-game="2048">
+                    <span>🔢</span>
+                    <strong>2048</strong>
+                    <small>Merge numbers and reach 2048</small>
+                </button>
+
+
+                <button class="game-card" data-game="coincollector">
+                    <span>🀄</span>
+                    <strong>Coin Collector</strong>
+                   <small>Collect coins and avoid bombs</small>
+                </button>
+
+
+                <button class="game-card" data-game="discthief">
+                    <span>💿</span>
+                    <strong>Disc Thief</strong>
+                    <small>React fast and steal the discs</small>
+                </button>
+
+
+                <button class="game-card" data-game="minesweeper">
+                    <span>💣</span>
+                    <strong>Minesweeper</strong>
+                    <small>Find the safe tiles</small>
+                </button>
+
+
+                <button class="game-card" data-game="shooter">
+                    <span>🚀</span>
+                    <strong>Space Shooter</strong>
+                    <small>Destroy the enemies</small>
+                </button>
+
+            </div>
+
+        </main>
+
+
+        <footer>
+            <p>© 2026 GameClassic</p>
+        </footer>
+
+    </section>
+
+
+    <!-- GAME SCREEN -->
+
+    <section id="gameScreen" class="screen">
+
+        <div class="game-header">
+
+            <button id="backButton" class="back-button">
+                ← Menu
+            </button>
+
+
+            <div>
+
+                <h2 id="gameTitle">
+                    Game
+                </h2>
+
+                <p id="scoreText">
+                    Score: 0
+                </p>
+
+                <p id="livesText"></p>
+
+            </div>
+
+
+            <button id="restartButton" class="restart-button">
+                ↻ Restart
+            </button>
+
+        </div>
+
+
+        <div id="gameArea" class="game-area"></div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
